@@ -11,7 +11,7 @@ import java.util.Set;
 public class VetServiceMap extends AbstractMapService<vet, Long> implements VetServices {
     @Override
     public Set<vet> findAll() {
-        return this.findAll();
+        return super.findAll();
     }
     @Override
     public vet findByID(Long id) {
